@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: Outfit ;
+}
+body{
+    background: #fff;
+    text-align: center;
+    font-family: Outfit;
+    min-height: 100vh;
+}
+.logo{
+    margin-top: 20px;
+}
+.sign_up_container{
+    max-width: 350px;
+    border: 1px solid #d2d2d2;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 27px;
+    border-radius: 8px;
+    text-align: left;
+}
+.create_acc_title{
+    font-size: 28px;
+    font-weight: 400;
+    margin: 2px 0;
+}
+.sign_up_container h5{
+     font-size: 13px;
+     font-weight: 600;
+     margin-top: 12px;
+     margin-bottom: 4px;
+
+}
+.sign_up_container input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #a0a0a0;
+    padding: 5px 7px;
+
+}
+.sign_up_container input:focus{
+    outline: 3px solid #c2f2ff;
+}
+.sign_up_container button{
+    width: 100%;
+    height: 30px;
+    margin: 17px 0;
+    padding: 3px 7px;
+    border-radius: 8px;
+    background:#ffd814;
+    cursor: pointer;
+}
+.sign_up_container button:hover{
+    background:#ebc712;
+}
+.sign_up_container p{
+    font-size: 12px;
+    margin: 20px 0; 
+}
+.sign_up_container a{
+    text-decoration: none;
+    color:#0066c0;
+}
+.sign_up_container hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+    margin: 10px 0;
+}
+#buss_acc{
+    font-size: 13px;
+}
+
+
+/* footer css */
+
+
+footer{
+    width: 100%;
+    max-height: 200px;
+    margin-top: 30px;
+    padding: 20px 0;
+    position: fixed;
+    /* bottom:  0; */
+    background: linear-gradient(to bottom ,#f4f4f4,#fff);
+    border: 2px solid #ededed;
+    font-size: 12px;
+}
+.footer_links{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer_links_a{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.footer_links_a a{
+    text-decoration: none;
+    color: #0066c0;
+}
